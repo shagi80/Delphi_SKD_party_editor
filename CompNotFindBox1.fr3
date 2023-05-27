@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.10.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="40621,4728307292" ReportOptions.Description.Text="" ReportOptions.LastChange="40831,716431169" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674021003546F70021008446174617365747301010C3400000020446174615365743D22667278444244617461736574312220446174615365744E616D653D22667278444244617461736574312200010C3400000020446174615365743D22667278444244617461736574322220446174615365744E616D653D2266727844424461746173657432220000095661726961626C657301010C16000000204E616D653D22204E65772043617465676F7279312200010C0E000000204E616D653D225449544C45322200010C0D000000204E616D653D225449544C452200010C0E000000204E616D653D225449544C4533220000055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="52,91342" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo18" Left="0" Top="18,89765" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[TITLE]"/>
+      <TfrxMemoView Name="Memo5" Left="0" Top="0" Width="718,1107" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[TITLE3]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="173,85838" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo4" Left="37,7953" Top="0" Width="75,5906" Height="18,89765" ShowHint="False" DataField="BoxCode" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxDBDataset1.&#34;BoxCode&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="0" Top="0" Width="37,7953" Height="18,89765" ShowHint="False" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[Line]"/>
+      <TfrxMemoView Name="Memo2" Left="170,07885" Top="0" Width="56,69295" Height="18,89765" ShowHint="False" AllowExpressions="False" DataField="FindBoxQty" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;FindBoxQty&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="113,3859" Top="0" Width="56,69295" Height="18,89765" ShowHint="False" DataField="BoxQty" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;BoxQty&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" Height="18,89765" Left="0" Top="94,48825" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="0" Top="0" Width="37,7953" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="№"/>
+      <TfrxMemoView Name="Memo12" Left="37,7953" Top="0" Width="75,5906" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Коробка"/>
+    </TfrxPageHeader>
+    <TfrxDetailData Name="DetailData1" Height="22,67718" Left="0" Top="215,43321" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" RowCount="0">
+      <TfrxMemoView Name="Memo7" Left="226,7718" Top="0" Width="377,953" Height="18,89765" ShowHint="False" DataField="Name" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Text="[frxDBDataset2.&#34;Name&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="37,7953" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" DataField="Code" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Text="[frxDBDataset2.&#34;Code&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="132,28355" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" DataField="BOM" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Text="[frxDBDataset2.&#34;BOM&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="642,5201" Top="0" Width="75,5906" Height="18,89765" ShowHint="False" DataField="Qty" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Text="[frxDBDataset2.&#34;Qty&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="604,7248" Top="0" Width="37,7953" Height="18,89765" ShowHint="False" DataField="EI" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Text="[frxDBDataset2.&#34;EI&#34;]"/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>
